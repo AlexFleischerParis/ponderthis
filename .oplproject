@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="challenge2020january" category="opl">
+			<ref name="challenge2020january.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
