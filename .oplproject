@@ -5,6 +5,14 @@
 			<ref name="challenge2020january.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="sudokucpo" category="opl">
+			<ref name="sudokucpo.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="sudokucplex" category="opl">
+			<ref name="sudokucplex.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
