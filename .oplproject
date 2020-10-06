@@ -13,6 +13,10 @@
 			<ref name="sudokucplex.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2020september" category="opl">
+			<ref name="challenge2020september.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
