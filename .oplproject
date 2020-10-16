@@ -21,6 +21,14 @@
 			<ref name="challenge2020july.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2020marchMP" category="opl">
+			<ref name="challenge2020marchMP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2020marchCPO" category="opl">
+			<ref name="challenge2020marchCPO.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
