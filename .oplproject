@@ -29,6 +29,10 @@
 			<ref name="challenge2020marchCPO.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="mayathebee" category="opl">
+			<ref name="mayathebee.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
