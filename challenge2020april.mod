@@ -71,9 +71,7 @@ subject to
 // break sym
 x["A"]["B"]==1;
 x["A"]["C"]==1;
-//x["A"]["D"]==1;
-//x["A"]["E"]==1;
-//x["A"]["G"]==1;
+
 
 // symetry
 forall(ordered a,b in nodes) x[a][b]==x[b][a];
