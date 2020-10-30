@@ -33,6 +33,14 @@
 			<ref name="mayathebee.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2020aprilchecksmallinstance" category="opl">
+			<ref name="challenge2020aprilchecksmallinstance.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2020april" category="opl">
+			<ref name="challenge2020april.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
