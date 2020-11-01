@@ -1,6 +1,7 @@
-// the puzzle is
-// https://www.gchq.gov.uk/news/christmas-card-cryptographic-twist-charity
-
+/*
+the puzzle is
+https://www.gchq.gov.uk/news/christmas-card-cryptographic-twist-charity
+*/
 
 using CP;
 
