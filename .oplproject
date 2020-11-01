@@ -41,6 +41,12 @@
 			<ref name="challenge2020april.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="GCHQ2015" category="opl">
+			<ref name="GCHQ2015.mod" type="model">
+			</ref>
+			<ref name="GCHQ2015.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
