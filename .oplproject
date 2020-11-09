@@ -47,6 +47,10 @@
 			<ref name="GCHQ2015.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="challenge2018may" category="opl">
+			<ref name="challenge2018may.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
