@@ -55,6 +55,24 @@
 			<ref name="challenge2020december.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="cubewise2020" category="opl">
+			<ref name="cubewise2020.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cubewise2020generic" category="opl">
+			<ref name="cubewise2020generic.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cubewise2020javascript" category="opl">
+			<ref name="cubewise2020javascript.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2019september" category="opl">
+			<ref name="challenge2019september.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cubewise2020enum" category="opl">
+		</config>
 	</configs>
 	
 </project>
