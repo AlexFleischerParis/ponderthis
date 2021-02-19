@@ -72,6 +72,12 @@
 			</ref>
 		</config>
 		<config default="false" name="cubewise2020enum" category="opl">
+			<ref name="cubewise2020enum.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cubewise2020MIP" category="opl">
+			<ref name="cubewise2020MIP.mod" type="model">
+			</ref>
 		</config>
 	</configs>
 	

@@ -16,12 +16,7 @@ Target: Maximize the value of ROI. There is only 1 correct maximum value for ROI
 What number (like 123) corresponds to the letters ROI?
 
 */
-using CP;
 
-execute
-{
-  cp.param.LogVerbosity="Quiet";
-}
 
 range r=0..9;
 range rwithout0=1..9;
@@ -51,7 +46,59 @@ WISE == 1000*W+100*I+10*S+1*E;
 MORE == 1000*M+100*O+10*R+1*E;
 
 // all letters are different
-allDifferent(append(C,U,B,E,W,I,S,M,O,R));
+C!=U;
+C!=B;
+C!=E;
+C!=W;
+C!=I;
+C!=S;
+C!=M;
+C!=O;
+C!=R;
+
+U!=B;
+U!=E;
+U!=W;
+U!=I;
+U!=S;
+U!=M;
+U!=O;
+U!=R;
+
+B!=E;
+B!=W;
+B!=I;
+B!=S;
+B!=M;
+B!=O;
+B!=R;
+
+E!=W;
+E!=I;
+E!=S;
+E!=M;
+E!=O;
+E!=R;
+
+W!=I;
+W!=S;
+W!=M;
+W!=O;
+W!=R;
+
+I!=S;
+I!=M;
+I!=O;
+I!=R;
+
+S!=M;
+S!=O;
+S!=R;
+
+M!=O;
+M!=R;
+
+O!=R;
 }
 
 execute {
@@ -61,4 +108,5 @@ writeln("MORE = ",MORE);
 writeln("ROI=",ROI);
 writeln();
 }
+
 
