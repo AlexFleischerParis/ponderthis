@@ -79,6 +79,18 @@
 			<ref name="cubewise2020MIP.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2021january" category="opl">
+			<ref name="challenge2021january.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="differentcolorschessboardCP" category="opl">
+			<ref name="differentcolorschessboardCP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="differentcolorschessboardMIP" category="opl">
+			<ref name="differentcolorschessboardMIP.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
