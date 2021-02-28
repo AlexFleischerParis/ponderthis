@@ -9,7 +9,7 @@ Each colour can't be repeated more than once in every row and column
 int n=50;
 range r=1..n;
 range r2=n..n*n;
-range r3=1..n*n;
+range r3=1..n*10;
 
 dvar boolean x[r][r][r3];
 dvar boolean usedcolor[r3];

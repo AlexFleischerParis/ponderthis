@@ -25,6 +25,8 @@ subject to
      allDifferent(all(j in r)x[i][j]);
      allDifferent(all(j in r)x[j][i]);
    }
+   
+   
 }
 
 
