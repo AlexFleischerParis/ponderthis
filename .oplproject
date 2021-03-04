@@ -91,6 +91,10 @@
 			<ref name="differentcolorschessboardMIP.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2021february" category="opl">
+			<ref name="challenge2021february.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
