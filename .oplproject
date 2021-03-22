@@ -99,6 +99,10 @@
 			<ref name="challenge2019october.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2019july" category="opl">
+			<ref name="challenge2019july.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
