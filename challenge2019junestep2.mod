@@ -1,6 +1,6 @@
 /*
 
-step 1 for http://www.research.ibm.com/haifa/ponderthis/solutions/June2019.html
+step 2 for http://www.research.ibm.com/haifa/ponderthis/solutions/June2019.html
 
 2 steps:
 
