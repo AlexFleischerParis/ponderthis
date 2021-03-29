@@ -103,6 +103,28 @@
 			<ref name="challenge2019july.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2019junestep1" category="opl">
+			<ref name="challenge2019junestep1.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2019junestep2" category="opl">
+			<ref name="challenge2019junestep2.mod" type="model">
+			</ref>
+			<ref name="cubeGoodSquares.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="challenge2019june" category="opl">
+			<ref name="challenge2019june.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2019aprilCP" category="opl">
+			<ref name="challenge2019aprilCP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="challenge2019aprilMP" category="opl">
+			<ref name="challenge2019aprilMP.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
