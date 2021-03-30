@@ -125,6 +125,10 @@
 			<ref name="challenge2019aprilMP.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2017december" category="opl">
+			<ref name="challenge2017december.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
