@@ -15,13 +15,13 @@ dvar int z[k in 1..N] in 0..((k==1)?maxint:9);
 dvar int y[1..5] in 0..9;
 dvar int Y in 0..100000;
 dvar int m in 1..9;
-dvar int m2 in 1..19;
+/*dvar int m2 in 1..19;
 
 
 
 dvar int cx[1..10] in 0..9;
 
-dexpr int isUsedInX[j in 0..9] = (or (i in 1..5) (cx[i]==j));
+dexpr int isUsedInX[j in 0..9] = (or (i in 1..5) (cx[i]==j));*/
 
 
 
