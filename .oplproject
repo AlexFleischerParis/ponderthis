@@ -145,6 +145,12 @@
 			<ref name="challenge2021march.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2021april" category="opl">
+			<ref name="challenge2021april.mod" type="model">
+			</ref>
+			<ref name="challenge2021april.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
