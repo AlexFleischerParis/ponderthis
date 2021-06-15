@@ -22,6 +22,10 @@ subject to
   forall(i in r) forall(j in r2)  mincard[i]==j => x[i][j]==1;
   forall(i in r) forall(j in r2) (j<=mincard[i]-1) => x[i][j]==0;
   
+  // Which can also be rewritten into
+  
+  //forall(i in r) mincard[i]==64-max(j in r2) (x[i][j]*(64-j));
+  
   forall(i in r2) forall(j in r) 
   {
     (x[j][i]==0) => (mincardtimesx[j][i]==0);
@@ -55,6 +59,7 @@ assert forall(i in r) forall(j in r2) (j<mincard[i]) => x[i][j]==0;
   
 assert forall(i in r2) i==sum(j in r) mincard[j]*x[j][i];
   
+
 
  /*
 

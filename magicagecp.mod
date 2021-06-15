@@ -17,8 +17,13 @@ subject to
   forall(ordered i,j in r2) or(k in r) x[k][i]!=x[k][j];
   
   // compute mincard
-  forall(i in r) x[i][mincard[i]]==1;
-  forall(i in r) forall(j in r2) (j<mincard[i]) => x[i][j]==0;
+  //forall(i in r) x[i][mincard[i]]==1;
+  
+  //forall(i in r) forall(j in r2) (j<mincard[i]) => x[i][j]==0;
+  
+  // Which can also be rewritten into
+  
+  forall(i in r) mincard[i]==64-max(j in r2) (x[i][j]*(64-j));
   
   forall(i in r2) i==sum(j in r) mincard[j]*x[j][i];
   
