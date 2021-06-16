@@ -163,6 +163,10 @@
 			<ref name="magicagemip.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="queenarmies" category="opl">
+			<ref name="queenarmies.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
