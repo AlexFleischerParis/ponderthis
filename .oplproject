@@ -167,6 +167,10 @@
 			<ref name="queenarmies.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="queenarmiesCPO" category="opl">
+			<ref name="queenarmiesCPO.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
