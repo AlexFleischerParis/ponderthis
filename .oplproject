@@ -171,6 +171,10 @@
 			<ref name="queenarmiesCPO.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="killersudoku" category="opl">
+			<ref name="killersudoku.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
