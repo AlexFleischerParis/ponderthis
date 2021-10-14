@@ -175,6 +175,8 @@
 			<ref name="killersudoku.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="VirginieMathivetChallengeNoel" category="opl">
+		</config>
 	</configs>
 	
 </project>
