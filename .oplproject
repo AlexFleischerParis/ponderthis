@@ -177,6 +177,10 @@
 		</config>
 		<config default="false" name="VirginieMathivetChallengeNoel" category="opl">
 		</config>
+		<config default="false" name="challenge2021september" category="opl">
+			<ref name="challenge2021september.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
