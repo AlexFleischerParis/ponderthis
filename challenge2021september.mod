@@ -21,7 +21,7 @@ int v0[1..nbv]=[3,1,4,1,5,9,2,6,5,3,5,8,9,
 5,0,2,8,8,4,1,9,7,1,6,9,3,9,9,3,7,5,1,0,5,8,2,0,9,7,4,9,4,4
 ,5,9,2,3,0,7,8,1,6,4];
 
-assert forall(i in 1..nbv) as:v0[i] in (0..9);
+assert forall(i in 1..nbv) as:v0[i] in villains;
 
 dvar int fightposv[1..nbfights] in 1..nbv;
 
