@@ -176,9 +176,19 @@
 			</ref>
 		</config>
 		<config default="false" name="VirginieMathivetChallengeNoel" category="opl">
+			<ref name="VirginieMathivetChallengeNoel.mod" type="model">
+			</ref>
 		</config>
 		<config default="false" name="challenge2021september" category="opl">
 			<ref name="challenge2021september.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="dmc2015novemberMIP" category="opl">
+			<ref name="dmc2015novemberMIP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="dmc2015novemberCP" category="opl">
+			<ref name="dmc2015novemberCP.mod" type="model">
 			</ref>
 		</config>
 	</configs>
