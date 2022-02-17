@@ -191,6 +191,10 @@
 			<ref name="dmc2015novemberCP.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="challenge2022january" category="opl">
+			<ref name="challenge2022january.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
