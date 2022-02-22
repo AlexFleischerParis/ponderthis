@@ -195,6 +195,10 @@
 			<ref name="challenge2022january.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="nextpalindromedate" category="opl">
+			<ref name="nextpalindromedate.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
