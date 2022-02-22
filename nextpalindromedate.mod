@@ -31,6 +31,14 @@
    d2==y3;
    m1==y2;
    m2==y1;
+   
+   /*
+   // US Format mm/dd/yyyy
+   m1==y4;
+   m2==y3;
+   d1==y2;
+   d2==y1;
+   */
     
    (month==2)=>(day<=29);
    forall(m in monthswith30days) (month==m)=>(day<=30);
@@ -44,7 +52,7 @@
    
    date1=new Date(   year,month,day);
    date2=new Date(2022,2,22);
-   var nbDays=(date1-date2)/3600/24/1000;
+   var nbDays=Opl.round((date1-date2)/3600/24/1000);
    writeln("So we will have to wait ",nbDays," days");
  }
  
@@ -54,5 +62,12 @@
  
  3/2/2030
  So we will have to wait 2903 days
+ 
+ or
+ 
+ 2/3/2030
+So we will have to wait 2933 days
+
+if we choose US format
  
  */
