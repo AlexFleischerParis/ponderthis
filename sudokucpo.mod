@@ -21,7 +21,7 @@ subject to {
   {
     allDifferent(all (i in 1..9) x[idx,i]); // horizontal
     allDifferent(all (i in 1..9) x[i,idx]);  // vertical
-    allDifferent(all (i in 1..3, j in 1..3) x[((idx-1) div 3)*3 + i][((idx-1) % 3)*3 + j]); // squares
+    allDifferent(all (i in 1..3, j in 1..3) x[((idx-1) div 3)*3 + i][((idx-1) % 3)*3 + j]); // sub squares
  }   
 };
 
