@@ -1,204 +1,362 @@
 <?xml version="1.0" encoding="ASCII"?><project>
-	<version>1.0</version>
-	<configs>
-		<config default="true" name="challenge2020january" category="opl">
-			<ref name="challenge2020january.mod" type="model">
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="challenge2020january" category="opl">
+            			
+            <ref name="challenge2020january.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="sudokucpo" category="opl">
-			<ref name="sudokucpo.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="sudokucpo" category="opl">
+            			
+            <ref name="sudokucpo.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="sudokucplex" category="opl">
-			<ref name="sudokucplex.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="sudokucplex" category="opl">
+            			
+            <ref name="sudokucplex.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020september" category="opl">
-			<ref name="challenge2020september.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020september" category="opl">
+            			
+            <ref name="challenge2020september.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020july" category="opl">
-			<ref name="challenge2020july.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020july" category="opl">
+            			
+            <ref name="challenge2020july.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020marchMP" category="opl">
-			<ref name="challenge2020marchMP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020marchMP" category="opl">
+            			
+            <ref name="challenge2020marchMP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020marchCPO" category="opl">
-			<ref name="challenge2020marchCPO.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020marchCPO" category="opl">
+            			
+            <ref name="challenge2020marchCPO.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="mayathebee" category="opl">
-			<ref name="mayathebee.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="mayathebee" category="opl">
+            			
+            <ref name="mayathebee.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020aprilchecksmallinstance" category="opl">
-			<ref name="challenge2020aprilchecksmallinstance.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020aprilchecksmallinstance" category="opl">
+            			
+            <ref name="challenge2020aprilchecksmallinstance.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020april" category="opl">
-			<ref name="challenge2020april.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020april" category="opl">
+            			
+            <ref name="challenge2020april.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="GCHQ2015" category="opl">
-			<ref name="GCHQ2015.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="GCHQ2015" category="opl">
+            			
+            <ref name="GCHQ2015.mod" type="model">
 			</ref>
-			<ref name="GCHQ2015.dat" type="data">
+            			
+            <ref name="GCHQ2015.dat" type="data">
 			</ref>
-		</config>
-		<config default="false" name="challenge2018may" category="opl">
-			<ref name="challenge2018may.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2018may" category="opl">
+            			
+            <ref name="challenge2018may.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2020december" category="opl">
-			<ref name="challenge2020december.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2020december" category="opl">
+            			
+            <ref name="challenge2020december.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="cubewise2020" category="opl">
-			<ref name="cubewise2020.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="cubewise2020" category="opl">
+            			
+            <ref name="cubewise2020.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="cubewise2020generic" category="opl">
-			<ref name="cubewise2020generic.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="cubewise2020generic" category="opl">
+            			
+            <ref name="cubewise2020generic.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="cubewise2020javascript" category="opl">
-			<ref name="cubewise2020javascript.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="cubewise2020javascript" category="opl">
+            			
+            <ref name="cubewise2020javascript.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019september" category="opl">
-			<ref name="challenge2019september.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019september" category="opl">
+            			
+            <ref name="challenge2019september.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="cubewise2020enum" category="opl">
-			<ref name="cubewise2020enum.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="cubewise2020enum" category="opl">
+            			
+            <ref name="cubewise2020enum.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="cubewise2020MIP" category="opl">
-			<ref name="cubewise2020MIP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="cubewise2020MIP" category="opl">
+            			
+            <ref name="cubewise2020MIP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021january" category="opl">
-			<ref name="challenge2021january.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021january" category="opl">
+            			
+            <ref name="challenge2021january.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="differentcolorschessboardCP" category="opl">
-			<ref name="differentcolorschessboardCP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="differentcolorschessboardCP" category="opl">
+            			
+            <ref name="differentcolorschessboardCP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="differentcolorschessboardMIP" category="opl">
-			<ref name="differentcolorschessboardMIP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="differentcolorschessboardMIP" category="opl">
+            			
+            <ref name="differentcolorschessboardMIP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021february" category="opl">
-			<ref name="challenge2021february.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021february" category="opl">
+            			
+            <ref name="challenge2021february.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019october" category="opl">
-			<ref name="challenge2019october.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019october" category="opl">
+            			
+            <ref name="challenge2019october.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019july" category="opl">
-			<ref name="challenge2019july.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019july" category="opl">
+            			
+            <ref name="challenge2019july.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019junestep1" category="opl">
-			<ref name="challenge2019junestep1.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019junestep1" category="opl">
+            			
+            <ref name="challenge2019junestep1.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019junestep2" category="opl">
-			<ref name="challenge2019junestep2.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019junestep2" category="opl">
+            			
+            <ref name="challenge2019junestep2.mod" type="model">
 			</ref>
-			<ref name="cubeGoodSquares.dat" type="data">
+            			
+            <ref name="cubeGoodSquares.dat" type="data">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019june" category="opl">
-			<ref name="challenge2019june.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019june" category="opl">
+            			
+            <ref name="challenge2019june.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019aprilCP" category="opl">
-			<ref name="challenge2019aprilCP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019aprilCP" category="opl">
+            			
+            <ref name="challenge2019aprilCP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2019aprilMP" category="opl">
-			<ref name="challenge2019aprilMP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2019aprilMP" category="opl">
+            			
+            <ref name="challenge2019aprilMP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2017december" category="opl">
-			<ref name="challenge2017december.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2017december" category="opl">
+            			
+            <ref name="challenge2017december.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2013january" category="opl">
-			<ref name="challenge2013january.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2013january" category="opl">
+            			
+            <ref name="challenge2013january.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2013july" category="opl">
-			<ref name="challenge2013july.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2013july" category="opl">
+            			
+            <ref name="challenge2013july.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2013june" category="opl">
-			<ref name="challenge2013june.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2013june" category="opl">
+            			
+            <ref name="challenge2013june.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021march" category="opl">
-			<ref name="challenge2021march.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021march" category="opl">
+            			
+            <ref name="challenge2021march.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021april" category="opl">
-			<ref name="challenge2021april.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021april" category="opl">
+            			
+            <ref name="challenge2021april.mod" type="model">
 			</ref>
-			<ref name="challenge2021april.dat" type="data">
+            			
+            <ref name="challenge2021april.dat" type="data">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021may" category="opl">
-			<ref name="challenge2021may.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021may" category="opl">
+            			
+            <ref name="challenge2021may.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="magicagecp" category="opl">
-			<ref name="magicagecp.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="magicagecp" category="opl">
+            			
+            <ref name="magicagecp.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="magicagemip" category="opl">
-			<ref name="magicagemip.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="magicagemip" category="opl">
+            			
+            <ref name="magicagemip.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="queenarmies" category="opl">
-			<ref name="queenarmies.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="queenarmies" category="opl">
+            			
+            <ref name="queenarmies.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="queenarmiesCPO" category="opl">
-			<ref name="queenarmiesCPO.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="queenarmiesCPO" category="opl">
+            			
+            <ref name="queenarmiesCPO.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="killersudoku" category="opl">
-			<ref name="killersudoku.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="killersudoku" category="opl">
+            			
+            <ref name="killersudoku.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="VirginieMathivetChallengeNoel" category="opl">
-			<ref name="VirginieMathivetChallengeNoel.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="VirginieMathivetChallengeNoel" category="opl">
+            			
+            <ref name="VirginieMathivetChallengeNoel.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2021september" category="opl">
-			<ref name="challenge2021september.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2021september" category="opl">
+            			
+            <ref name="challenge2021september.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="dmc2015novemberMIP" category="opl">
-			<ref name="dmc2015novemberMIP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="dmc2015novemberMIP" category="opl">
+            			
+            <ref name="dmc2015novemberMIP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="dmc2015novemberCP" category="opl">
-			<ref name="dmc2015novemberCP.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="dmc2015novemberCP" category="opl">
+            			
+            <ref name="dmc2015novemberCP.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="challenge2022january" category="opl">
-			<ref name="challenge2022january.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="challenge2022january" category="opl">
+            			
+            <ref name="challenge2022january.mod" type="model">
 			</ref>
-		</config>
-		<config default="false" name="nextpalindromedate" category="opl">
-			<ref name="nextpalindromedate.mod" type="model">
+            		
+        </config>
+        		
+        <config default="false" name="nextpalindromedate" category="opl">
+            			
+            <ref name="nextpalindromedate.mod" type="model">
 			</ref>
-		</config>
-	</configs>
-	
+            		
+        </config>
+        		
+        <config default="false" name="eurodecision2022printemps" category="opl">
+            			
+            <ref name="eurodecision2022printemps.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
 </project>
