@@ -355,6 +355,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2022may" category="opl">
+            			
+            <ref name="challenge2022may.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
