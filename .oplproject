@@ -362,6 +362,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="diet" category="opl">
+            			
+            <ref name="diet.mod" type="model">
+			</ref>
+            			
+            <ref name="diet.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
