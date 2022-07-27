@@ -372,6 +372,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="dmc2015juneMIP" category="opl">
+            			
+            <ref name="dmc2015juneMIP.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="dmc2015juneCPO" category="opl">
+            			
+            <ref name="dmc2015juneCPO.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
