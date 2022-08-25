@@ -55,13 +55,9 @@ subject to
       
       // if no origin nor destination then no change
       forall(i in r) ((i!=o[s]) && (i!=d[s])) => (x[s][i]==x[s-1][i]);
-       //x[s][d[s]]==2*x[s-1][d[s]]; // redundant
-      
+       //x[s][d[s]]==2*x[s-1][d[s]]; // redundant     
 
-    }
-    
-     
-    
+    }   
 }
 
 assert forall(s in steps) x[s][d[s]]==2*x[s-1][d[s]];
