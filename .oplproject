@@ -393,6 +393,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2022octoberMP" category="opl">
+            			
+            <ref name="challenge2022octoberMP.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="challenge2022octoberCP" category="opl">
+            			
+            <ref name="challenge2022octoberCP.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
