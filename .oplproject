@@ -407,6 +407,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="dmc2023JanuaryCP" category="opl">
+            			
+            <ref name="dmc2023JanuaryCP.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="birthdayparadox" category="opl">
+            			
+            <ref name="birthdayparadox.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
