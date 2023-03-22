@@ -421,6 +421,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2023february" category="opl">
+            			
+            <ref name="challenge2023february.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="challenge2023februarychecker" category="opl">
+            			
+            <ref name="challenge2023februarychecker.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
