@@ -456,6 +456,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="OneEuroCoin" category="opl">
+            			
+            <ref name="OneEuroCoin.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
