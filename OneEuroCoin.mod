@@ -5,6 +5,8 @@ Suppose you need to pay 1 Euro. In how many different ways you can do it via
 
 */
 
+// Core model
+
 using CP;
 
 {int} coins={1,2,5,10,20,50,100};
@@ -16,7 +18,7 @@ subject to
   100==sum(c in coins) nb[c]*c;
 }
 
-
+// Iterate to get all solutions
 main
 {
     var nb=0;
