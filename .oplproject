@@ -470,6 +470,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2024januaryCP" category="opl">
+            			
+            <ref name="challenge2024januaryCP.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="challenge2024januaryMP" category="opl">
+            			
+            <ref name="challenge2024januaryMP.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
