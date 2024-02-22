@@ -1,0 +1,21 @@
+[2023-03-14T11:47:54.465Z, WARNING] : JavaScript statements are not supported.
+[2023-03-14T11:47:55.444Z, INFO] Initialization of ratetwicesamebirthday.
+[2023-03-14T11:47:55.463Z, INFO] Initialization of n.
+[2023-03-14T11:47:55.465Z, INFO] Initialization of r.
+[2023-03-14T11:47:55.483Z, INFO] Initialization of nbBirthdays.
+[2023-03-14T11:47:55.485Z, INFO] Initialization of rb.
+[2023-03-14T11:47:55.503Z, INFO] Initialization of birthdays.
+[2023-03-14T11:47:58.293Z, INFO] Initialization of nbDays.
+[2023-03-14T11:48:40.315Z, INFO] probability : 0.506503
+[2023-03-14T11:48:40.317Z, INFO] time        : 45.908387939
+[2023-03-14T11:48:40.384Z, WARNING] Effective number of workers to be used for solve has been updated to: '1' (original value was: '0')
+[2023-03-14T11:48:40.444Z, INFO] Version identifier: 20.1.0.1 | 2022-03-29 | a3c2dbd1a
+[2023-03-14T11:48:40.463Z, INFO] CPXPARAM_Threads                                 1
+[2023-03-14T11:48:40.466Z, INFO] Tried aggregator 1 time.
+[2023-03-14T11:48:40.469Z, INFO] No LP presolve or aggregator reductions.
+[2023-03-14T11:48:40.472Z, INFO] Presolve time = 0.00 sec. (0.00 ticks)
+[2023-03-14T11:48:40.747Z, INFO] attachment : stats.csv
+[2023-03-14T11:48:41.164Z, WARNING] No element declared in post-processing, the output file will be empty.
+[2023-03-14T11:48:41.166Z, INFO] attachment : solution.json
+[2023-03-14T11:48:41.226Z, INFO] Total time spent in post processing: 0 msecs.
+[2023-03-14T11:48:41.227Z, INFO] Solve finished with status: OPTIMAL_SOLUTION.

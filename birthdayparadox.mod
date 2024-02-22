@@ -11,7 +11,7 @@ Let's compute this probability with Monte Carlo in OPL CPLEX
 
 */
 
-int nbDays=366;
+int nbDays=366; // Olympic year
 int nbBirthdays=23;
 range rb=1..nbBirthdays;
 int n=1000000;
