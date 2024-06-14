@@ -484,6 +484,20 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2024mayCP" category="opl">
+            			
+            <ref name="challenge2024mayCP.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="challenge2024mayMP" category="opl">
+            			
+            <ref name="challenge2024mayMP.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
