@@ -505,6 +505,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="ZoeYannEtXavier" category="opl">
+            			
+            <ref name="ZoeYannEtXavier.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
