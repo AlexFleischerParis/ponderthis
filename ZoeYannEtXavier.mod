@@ -71,4 +71,6 @@ Alex vote pour Zoe
 Bob vote pour Xavier
 Chloe vote pour Yann
 
+ChatGPT, LLama3 et mixtral se trompent!
+
 */
