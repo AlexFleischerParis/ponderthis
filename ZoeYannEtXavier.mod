@@ -17,32 +17,34 @@ using CP;
 {string} camarades={"Alex","Bob","Chloe"};
 {string} nomsdesvotes={"Xavier","Yann","Zoe"};
 
+int Xavier=ord(nomsdesvotes,"Xavier");
+int Yann=ord(nomsdesvotes,"Yann");
+int Zoe=ord(nomsdesvotes,"Zoe");
+
 dvar int vote[camarades] in 0..card(nomsdesvotes)-1;
 
 subject to
 {
-  ((vote["Bob"]==ord(nomsdesvotes,"Zoe") && 
-  vote["Chloe"]!=ord(nomsdesvotes,"Xavier")))
+  ((vote["Bob"]==Zoe) &&  (vote["Chloe"]!=Xavier))
   =>
-   (vote["Alex"]==ord(nomsdesvotes,"Xavier"));
+   (vote["Alex"]==Xavier);
    
-    (vote["Chloe"]==ord(nomsdesvotes,"Xavier"))
+    (vote["Chloe"]==Xavier)
   =>
-   (vote["Alex"]==ord(nomsdesvotes,"Yann"));
+   (vote["Alex"]==Yann);
 
  
-  ((vote["Alex"]==ord(nomsdesvotes,"Yann") && 
-  vote["Chloe"]!=ord(nomsdesvotes,"Zoe")))
+  ((vote["Alex"]==Yann) &&  (vote["Chloe"]!=Zoe))
   =>
-   (vote["Bob"]==ord(nomsdesvotes,"Xavier"));
+   (vote["Bob"]==Xavier);
    
-    (vote["Chloe"]==ord(nomsdesvotes,"Zoe"))
+    (vote["Chloe"]==Zoe)
   =>
-   (vote["Bob"]==ord(nomsdesvotes,"Xavier"));
- //  Chloé dit : si Alex vote pour Xavier, je ne voterai pas pour Yann
-  (vote["Alex"]==ord(nomsdesvotes,"Xavier"))
+   (vote["Bob"]==Xavier);
+
+  (vote["Alex"]==Xavier)
   =>
-   (vote["Chloe"]!=ord(nomsdesvotes,"Yann"));
+   (vote["Chloe"]!=Yann);
    
    
 allDifferent(vote);  
