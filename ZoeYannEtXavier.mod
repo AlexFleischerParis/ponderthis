@@ -30,31 +30,17 @@ dvar int vote[camarades] in 0..card(nomsdesvotes)-1;
 
 subject to
 {
-  
-  vote["Alex"]==Xavier;
-  ((vote["Bob"]==Zoe) &&  (vote["Chloe"]!=Xavier))
-  =>
-   (vote["Alex"]==Xavier);
+  ((vote["Bob"]==Zoe) &&  (vote["Chloe"]!=Xavier))  =>  (vote["Alex"]==Xavier);
    
-    (vote["Chloe"]==Xavier)
-  =>
-   (vote["Alex"]==Yann);
-
+   (vote["Chloe"]==Xavier) => (vote["Alex"]==Yann);
  
-  ((vote["Alex"]==Yann) &&  (vote["Chloe"]!=Zoe))
-  =>
-   (vote["Bob"]==Xavier);
+  ((vote["Alex"]==Yann) &&  (vote["Chloe"]!=Zoe)) =>  (vote["Bob"]==Xavier);
    
-    (vote["Chloe"]==Zoe)
-  =>
-   (vote["Bob"]==Xavier);
+    (vote["Chloe"]==Zoe) => (vote["Bob"]==Xavier);
 
-  (vote["Alex"]==Xavier)
-  =>
-   (vote["Chloe"]!=Yann);
-   
-   
-allDifferent(vote);  
+  (vote["Alex"]==Xavier) => (vote["Chloe"]!=Yann);
+     
+  allDifferent(vote);  
 }
 
 execute display 
