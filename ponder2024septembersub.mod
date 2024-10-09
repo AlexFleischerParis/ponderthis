@@ -1,5 +1,5 @@
-// Find c1 and c2 that with c1!=c2 
-//and (a,b,c1) and (a,b,c2) same area
+// Find c1 and c2  with c1!=c2 
+//and triangles (a,b,c1) and (a,b,c2) same area
 
 using CP;
 
