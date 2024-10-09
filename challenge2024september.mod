@@ -8,11 +8,13 @@
    
    thisOplModel.settings.mainEndEnabled=true;
    
+   // How many triangles (a,b,c1) (a,b,c2) with c1!=c2 and same area
    function countTriangles(a,b)
    {
       var source = new IloOplModelSource("ponder2024septembersub.mod");
       var def = new IloOplModelDefinition(source);
       var cp = new IloCP();
+      // Depth first
       cp.param.SearchType=24;
       cp.param.LogVerbosity=20;
       cp.param.workers=1;
@@ -31,11 +33,16 @@
       return nb;
    }
    
+   
+   // Loop to find Isoceles triangles leading to several triangles with same area
    var N=20;
    for(var i=1;i<=N;i++) if ((thisOplModel.prime[i]) && (countTriangles(i,i)!=0)) thisOplModel.S.add(i);
    writeln(" Isoceles triangles leading to several triangles with same area");
    writeln(thisOplModel.S); 
-     
+   
+   // Loop to find all (a,b) so that we have 50 
+   //  triangles (a,b,c1) (a,b,c2) with c1!=c2 
+   // and same area
      var M=30;
      var P=2;
      var f1=Opl.first(thisOplModel.S);
@@ -46,10 +53,12 @@
      for(var p3=0;p3<=P;p3++) for(var p2=0;p2<=P;p2++) for(var p1=0;p1<=P;p1++)
       for(var a=1;a<=M;a++)  for(b=1;b<=a-1;b++) if (nb!=50)
       {        
-        
+         // We test A and B with iteration on a and b and isoceles
+         // triangles leading to several triangles with same area
          var A=a*(Math.pow(f1,p1))*(Math.pow(f2,p2))*(Math.pow(f3,p3));
          
          var B=b*(Math.pow(f1,p1))*(Math.pow(f2,p2))*(Math.pow(f3,p3));
+         
          nb=countTriangles(A,B);
         
          if (nb==50) 
