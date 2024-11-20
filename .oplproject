@@ -519,6 +519,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="challenge2024october" category="opl">
+            			
+            <ref name="challenge2024october.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
