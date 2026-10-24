@@ -27,7 +27,7 @@ nbtwicesamebirthday=0
 
 for i in range(0,n):
     for j in range(0,nbBirthdays):
-        birthdays[i][j]=randint(0,nbDays)
+        birthdays[i][j]=randint(1,nbDays)
 for i in range(0,n):        
     if (len(set(birthdays[i])))!=nbBirthdays:
         nbtwicesamebirthday=nbtwicesamebirthday+1
